@@ -1,7 +1,24 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { Topbar } from "./components";
 
 const Minimal = (props) => {
-  return `Minimal`;
+  /**
+   * children component passed from RouteWithLayout page
+   */
+  const { children } = props;
+  console.log(`From TCL: : Minimal -> children`, children);
+  return (
+    <div>
+      <Topbar />
+      <main>{children}</main>
+    </div>
+  );
+};
+
+Minimal.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
 };
 
 export default Minimal;

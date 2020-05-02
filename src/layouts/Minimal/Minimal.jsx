@@ -7,7 +7,6 @@ const Minimal = (props) => {
    * children component passed from RouteWithLayout page
    */
   const { children } = props;
-  console.log(`From TCL: : Minimal -> children`, children);
   return (
     <div>
       <Topbar />

@@ -1,2 +1,2 @@
-export { default as Minimal } from "./Minimal";
-export { default as Main } from "./Main";
+export { default as MinimalLayout } from "./Minimal";
+export { default as MainLayout } from "./Main";

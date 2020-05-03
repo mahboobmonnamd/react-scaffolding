@@ -1,7 +1,9 @@
 import React from "react";
+import { pages } from "./../../../../routes/pages";
+import { SidebarNav } from "./components";
 
 const Sidebar = (props) => {
-  return <div>Sidebar</div>;
+  return <SidebarNav pages={pages} />;
 };
 
 export default Sidebar;

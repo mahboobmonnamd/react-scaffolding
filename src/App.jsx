@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { createBrowserHistory } from "history";
 import { Router } from "react-router-dom";
-import Routes from "./Routes";
+import Routes from "./routes/Routes";
 
 import "./assets/scss/index.scss";
 
